@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 270" role="img" aria-labelledby="title description">
+<title id="title">Как голосуют пять ближайших соседей</title>
+<desc id="description">Из пяти ближайших к новой точке соседей три относятся к Adelie и два к Chinstrap. Побеждает Adelie.</desc>
+<rect width="830" height="270" rx="17" fill="#f1f6fa"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#17354c">
+  <text x="24" y="33" font-size="21" font-weight="bold">kNN · голосование пяти соседей</text>
+  <path d="M 53 60 V 222 H 422" fill="none" stroke="#607b8e" stroke-width="1.5"/>
+  <text x="270" y="244" font-size="13">Признак 1</text>
+  <text x="28" y="154" font-size="13" text-anchor="middle" transform="rotate(-90 28 154)">Признак 2</text>
+  <circle cx="219" cy="145" r="54" fill="#d9e8f4" fill-opacity=".52" stroke="#607b8e" stroke-dasharray="5 4" stroke-width="1.5"/>
+  <g fill="#2563a6">
+    <circle cx="184" cy="121" r="7"/><circle cx="214" cy="99" r="7"/><circle cx="178" cy="157" r="7"/>
+    <circle cx="106" cy="112" r="5" opacity=".55"/><circle cx="130" cy="175" r="5" opacity=".55"/><circle cx="162" cy="77" r="5" opacity=".55"/>
+  </g>
+  <g fill="#b35716">
+    <circle cx="254" cy="126" r="7"/><circle cx="239" cy="184" r="7"/>
+    <circle cx="331" cy="173" r="5" opacity=".55"/><circle cx="365" cy="109" r="5" opacity=".55"/><circle cx="303" cy="197" r="5" opacity=".55"/>
+  </g>
+  <path d="M 219 135 L 229 145 L 219 155 L 209 145 Z" fill="#17354c" stroke="white" stroke-width="2"/>
+  <path d="M 229 145 H 282" stroke="#516b7d" stroke-width="1"/>
+  <text x="290" y="149" font-size="13">Новая точка</text>
+  <rect x="461" y="61" width="343" height="164" rx="12" fill="#fff"/>
+  <text x="483" y="92" font-size="17" font-weight="bold">Голоса ближайших соседей</text>
+  <circle cx="493" cy="117" r="6" fill="#2563a6"/><text x="508" y="122" font-size="15">Adelie</text><text x="762" y="122" font-size="15" text-anchor="end">3</text>
+  <circle cx="493" cy="145" r="6" fill="#b35716"/><text x="508" y="150" font-size="15">Chinstrap</text><text x="762" y="150" font-size="15" text-anchor="end">2</text>
+  <rect x="483" y="169" width="299" height="37" rx="7" fill="#dfeaf7"/>
+  <text x="500" y="193" font-size="16" font-weight="bold">Прогноз · Adelie</text>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 254" role="img" aria-labelledby="title description">
+<title id="title">Подготовка данных в train и test</title>
+<desc id="description">Train задаёт параметры преобразований и обучает модель. Test использует эти параметры и получает прогноз.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#516b7d"/></marker></defs>
+<rect width="940" height="254" rx="16" fill="#f1f6fa"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#17354c">
+  <text x="28" y="38" font-size="22" font-weight="bold">Где учимся, а где применяем</text>
+  <g fill="none" stroke="#516b7d" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M 151 98 H 174"/><path d="M 589 98 H 623"/><path d="M 151 203 H 174"/><path d="M 589 203 H 623"/>
+    <path d="M 383 127 V 174" stroke-dasharray="4 3"/><path d="M 768 127 V 174" stroke-dasharray="4 3"/>
+  </g>
+  <rect x="27" y="70" width="124" height="56" rx="9" fill="#23577d"/>
+  <rect x="27" y="175" width="124" height="56" rx="9" fill="#236750"/>
+  <text x="89" y="105" text-anchor="middle" fill="#fff" font-size="20" font-weight="bold">train</text>
+  <text x="89" y="210" text-anchor="middle" fill="#fff" font-size="20" font-weight="bold">test</text>
+  <rect x="175" y="70" width="414" height="56" rx="9" fill="#dfedf7"/>
+  <rect x="175" y="175" width="414" height="56" rx="9" fill="#dceee7"/>
+  <rect x="624" y="70" width="288" height="56" rx="9" fill="#dfedf7"/>
+  <rect x="624" y="175" width="288" height="56" rx="9" fill="#dceee7"/>
+  <g font-size="17" font-weight="bold">
+    <text x="190" y="93">Вычисляем параметры подготовки</text>
+    <text x="190" y="199">Применяем те же правила</text>
+    <text x="641" y="93">Обучаем модель</text>
+    <text x="641" y="199">Получаем прогноз</text>
+  </g>
+  <g font-size="13" fill="#40596d">
+    <text x="190" y="113">Импутация · масштабирование · категории</text>
+    <text x="190" y="219">Параметры уже вычислены на train</text>
+    <text x="641" y="113">Признаки и известные виды</text>
+    <text x="641" y="219">Признаки тестовых наблюдений</text>
+    <text x="397" y="154">сохранённые параметры</text>
+    <text x="781" y="154">обученная модель</text>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 265" role="img" aria-labelledby="title desc">
+<title id="title">Один оборот эксперимента</title>
+<desc id="desc">Замечаем зависимость вида от острова, формулируем гипотезу, убираем остров и снова проводим валидацию. Результат возвращает нас к данным.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#507286"/></marker></defs>
+<rect width="920" height="265" rx="16" fill="#f1f6fa"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#17354c">
+<text x="25" y="39" font-size="23" font-weight="bold">Один оборот эксперимента</text>
+<g fill="none" stroke="#507286" stroke-width="2" marker-end="url(#arrow)">
+<path d="M222 117H251"/><path d="M451 117H480"/><path d="M680 117H709"/>
+<path d="M808 157V203Q808 220 790 220H140Q122 220 122 203V159"/>
+</g>
+<rect x="24" y="77" width="198" height="80" rx="10" fill="#dfeaf7"/>
+<rect x="253" y="77" width="198" height="80" rx="10" fill="#e6edf2"/>
+<rect x="482" y="77" width="198" height="80" rx="10" fill="#f3e8da"/>
+<rect x="711" y="77" width="185" height="80" rx="10" fill="#dceee7"/>
+<g font-size="16" font-weight="bold">
+<text x="38" y="108">Смотрим данные</text><text x="267" y="108">Ставим гипотезу</text><text x="496" y="108">Меняем признаки</text><text x="725" y="108">Проверяем снова</text>
+</g>
+<g font-size="13" fill="#40596d">
+<text x="38" y="133">Виды по островам</text><text x="267" y="133">Остров помогает?</text><text x="496" y="133">Убираем island</text><text x="725" y="133">Те же пять фолдов</text>
+</g>
+<text x="460" y="200" font-size="14" text-anchor="middle" fill="#40596d">Результат подсказывает, что изучить в данных дальше</text>
+<text x="460" y="246" font-size="13" text-anchor="middle" fill="#40596d">Весь эксперимент проходит внутри train</text>
+</g>
+</svg>
